@@ -1,0 +1,39 @@
+body
+{
+    background: gold;
+}
+
+h1
+{
+    color: blue;
+    margin-left: 200px;
+}
+
+#showsketch
+{
+margin-left: 100px;
+}
+
+p
+{
+font-size: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+canvas
+{
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 3px solid blue;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1
+{
+    from{box-shadow: 3px 3px 30px blue;}
+    to{box-shadow: 3px 3px 30px white
+        ;}
+}
